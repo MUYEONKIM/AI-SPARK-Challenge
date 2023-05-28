@@ -5,7 +5,6 @@ from scipy.special import erf, erfinv
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.utils.validation import FLOAT_DTYPES, check_array, check_is_fitted
 
-
 class GaussRankScaler(BaseEstimator, TransformerMixin):
     def __init__(
         self,
